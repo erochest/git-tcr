@@ -4,7 +4,7 @@ use clap::{
 };
 
 fn main() {
-    println!("Hello, world!");
+    let matches = build_app().get_matches();
 }
 
 fn build_app<'a, 'b>() -> App<'a, 'b> {
